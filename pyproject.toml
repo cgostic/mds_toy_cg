@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "mds_toy_cg"
+version = "0.1.0"
+description = "Toy example for MDS 524 to learn to build a Python package"
+authors = ["Cari"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
